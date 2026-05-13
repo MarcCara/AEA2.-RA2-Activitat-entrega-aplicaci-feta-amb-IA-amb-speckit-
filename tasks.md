@@ -33,6 +33,6 @@
   - Goal: Create the native-look interface with Ionic components and the Start/Stop control button.
 
 ## Phase 5: Build & Native Validation
-- [ ] **Task 8: Android Configuration & Build**
+- [x] **Task 8: Android Configuration & Build**
   - Action: `npx cap add android`, configure permissions in `AndroidManifest.xml`, and generate the final APK.
   - Goal: Verify the app works 100% offline on a physical device.
