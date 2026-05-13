@@ -124,7 +124,7 @@ The app will detect classes supported by the Coco-SSD model, including but not l
 - [x] **Task 7: Design Main UI**
 
 ## Phase 5: Build & Native Validation
-- [ ] **Task 8: Android Configuration & Build**
+- [x] **Task 8: Android Configuration & Build**
 ```
 
 ### Contenido de PROMPTS.md:
