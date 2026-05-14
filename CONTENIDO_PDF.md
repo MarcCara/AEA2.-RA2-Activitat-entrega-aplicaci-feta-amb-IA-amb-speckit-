@@ -18,6 +18,15 @@
 
 ## 2. Capturas de la aplicación
 
+### Interfaz Inicial
+![Pantalla de Inicio 1](Capturas/Inicio1.png)
+![Pantalla de Inicio 2](Capturas/Inicio2.png)
+
+### Pruebas de Detección
+![Prueba de Detección 1](Capturas/Prueba1.png)
+![Prueba de Detección 2](Capturas/Prueba2.png)
+![Prueba de Detección 3](Capturas/Prueba3.png)
+
 ---
 
 ## 3. Procés d’especificació (Spec-Driven Development)
