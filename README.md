@@ -1,53 +1,53 @@
-# VisionAI - Real-Time On-Device Object Detection
+# VisionAI - Detecció d'Objectes en Temps Reial On-Device
 
-VisionAI is a hybrid mobile application built with **Ionic**, **Vue 3**, and **Capacitor** that performs real-time object detection using **TensorFlow.js**. 
+VisionAI és una aplicació mòbil híbrida desenvolupada amb **Ionic**, **Vue 3** i **Capacitor** que realitza detecció d'objectes en temps reial mitjançant **TensorFlow.js**.
 
-This project was developed following the **Speckit (Spec-Driven Development)** methodology, ensuring a clear separation between specification, planning, and implementation.
+Aquest projecte ha estat desenvolupat seguint la metodologia **Speckit (Spec-Driven Development)**, garantint una separació clara entre l'especificació, la planificació i la implementació.
 
-## 🚀 Key Features
-- **On-Device AI:** Performs inference 100% offline using the `coco-ssd` model.
-- **Real-Time Detection:** High-performance detection loop optimized for mobile devices.
-- **Native Experience:** Built with Ionic components for a polished mobile UI/UX.
-- **Performance Optimized:** Uses frame throttling (1/3 frames) and 640x480 resolution to maintain high FPS.
+## Característiques Principals
+- **IA On-Device:** Realitza inferències 100% offline utilitzant el model `coco-ssd` emmagatzemat localment.
+- **Detecció en Temps Reial:** Bucle de detecció d'alt rendiment optimitzat per a dispositius mòbils.
+- **Experiència Nativa:** Desenvolupat amb components d'Ionic per a una interfície d'usuari (UI) i experiència d'usuari (UX) polida.
+- **Rendiment Optimitzat:** Utilitza "frame throttling" (1/3 frames) i una resolució de 640x480 per mantenir una taxa d'imatges per segon (FPS) estable.
 
-## 🛠️ Tech Stack
+## Stack Tecnològic
 - **Framework:** Vue 3 (Composition API)
-- **UI Components:** Ionic Framework
-- **Native Bridge:** Capacitor
-- **AI Engine:** TensorFlow.js (@tensorflow/tfjs)
+- **Components d'UI:** Ionic Framework
+- **Pont Natiu:** Capacitor
+- **Motor d'IA:** TensorFlow.js (@tensorflow/tfjs)
 - **Model:** Coco-SSD Lite (MobileNet V2)
 
-## 📁 Project Structure
-- `/vision-ai`: The main Ionic/Vue application code.
-- `/vision-ai/public/models`: Localized model assets for offline use.
-- `/docs`: (Optional) Folder for additional documentation.
-- `CONSTITUTION.md`: Project principles and strict rules.
-- `SPEC.md`: Functional requirements.
-- `PLAN.md`: Technical architecture and strategy.
-- `tasks.md`: Ordered task list used for implementation.
-- `PROMPTS.md`: History of AI prompts used.
+## Estructura del Projecte
+- `/vision-ai`: Codi font de l'aplicació principal d'Ionic/Vue.
+- `/vision-ai/public/models`: Actius del model localitzats per a l'ús offline.
+- `CONSTITUTION.md`: Principis del projecte i regles estrictes de desenvolupament.
+- `SPEC.md`: Requisits funcionals detallats.
+- `PLAN.md`: Arquitectura tècnica i estratègia d'implementació.
+- `tasks.md`: Llista de tasques ordenades utilitzades per a l'execució.
+- `PROMPTS.md`: Historial dels prompts d'IA utilitzats durant el procés.
+- `CONTENIDO_PDF.md`: Documentació final preparada per a l'entrega acadèmica.
 
-## ⚙️ Setup & Installation
+## Instal·lació i Configuració
 
-1. **Install Dependencies:**
+1. **Instal·lació de dependències:**
    ```bash
    cd vision-ai
    npm install
    ```
 
-2. **Download Model Assets:**
-   From the root directory, run:
+2. **Descàrrega dels actius del model:**
+   Des del directori arrel, executeu:
    ```bash
    node download-model.js
    ```
 
-3. **Run in Browser:**
+3. **Execució en navegador (Desenvolupament):**
    ```bash
    cd vision-ai
    ionic serve
    ```
 
-4. **Build for Android:**
+4. **Compilació per a Android:**
    ```bash
    cd vision-ai
    npm run build
@@ -55,5 +55,5 @@ This project was developed following the **Speckit (Spec-Driven Development)** m
    npx cap open android
    ```
 
-## 📄 License
-This project is part of a DAM (Development of Multiplatform Applications) academic practice.
+## Llicència
+Aquest projecte forma part d'una pràctica acadèmica del cicle de Desenvolupament d'Aplicacions Multiplataforma (DAM).
