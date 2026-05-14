@@ -159,4 +159,12 @@ Detallamos los prompts clave:
 2. **Sincronización Video-Canvas:** Superposición exacta.
 3. **Gestión de Tensores:** Uso de `tf.tidy()` para evitar fugas de memoria.
 4. **Arquitectura de Servicios:** Singletons para IA y Cámara.
+5. **Resolución Inteligente:** Fijar la entrada a 640x480 para optimizar CPU.
+
+## 4. Capturas de Pantalla (App en Funcionamiento)
+![Inicio 1](Capturas/Inicio1.png)
+![Inicio 2](Capturas/Inicio2.png)
+![Prueba 1](Capturas/Prueba1.png)
+![Prueba 2](Capturas/Prueba2.png)
+![Prueba 3](Capturas/Prueba3.png)
 ```

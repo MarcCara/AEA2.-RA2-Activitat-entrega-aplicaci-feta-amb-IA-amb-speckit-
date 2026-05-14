@@ -39,3 +39,11 @@ Para garantizar una experiencia de usuario fluida y nativa, se tomaron las sigui
 3. **Gestión de Tensores con tf.tidy():** Se encapsularon las llamadas de detección para asegurar que TensorFlow libere la memoria de la GPU inmediatamente después de cada predicción, evitando fugas de memoria (memory leaks).
 4. **Arquitectura de Servicios:** Se separó la lógica en `AIService` y `CameraService` como singletons, permitiendo que la cámara y el modelo se gestionen de forma independiente del ciclo de vida de los componentes visuales.
 5. **Resolución Inteligente:** Fijar la entrada a 640x480 reduce drásticamente los píxeles que la IA debe analizar (comparado con Full HD), sin perder la capacidad de detectar objetos a media distancia.
+
+## 4. Capturas de Pantalla (App en Funcionamiento)
+
+![Inicio 1](Capturas/Inicio1.png)
+![Inicio 2](Capturas/Inicio2.png)
+![Prueba 1](Capturas/Prueba1.png)
+![Prueba 2](Capturas/Prueba2.png)
+![Prueba 3](Capturas/Prueba3.png)
