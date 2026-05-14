@@ -17,7 +17,6 @@
 ---
 
 ## 2. Capturas de la aplicación
-*(ESTA SECCIÓN DEBE SER COMPLETADA POR EL ALUMNO TRAS INSTALAR LA APK: Adjunta una captura de la pantalla de inicio y otra detectando algún objeto con los cuadros verdes)*
 
 ---
 
